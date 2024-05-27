@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 100vw;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  margin: 24px;
+  height: 34px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  color: #161c2d;
+}
+.sections {
+  display: flex;
+  gap: 29px;
+  font-size: 15px;
+  color: #161c2d;
+}
+.cart {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+.BG {
+  background-color: #f4f7fa;
+  width: 100vw;
+  height: 1839px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero {
+  width: 601px;
+  height: 202px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #161c2d;
+  font-size: 60px;
+}
+.text {
+  color: #161c2d;
+  opacity: 70%;
+  font-size: 19px;
+  text-align: center;
+}
+.pricing {
+  width: 1109px;
+  height: 604px;
+  display: flex;
+  justify-content: space-between;
+}
+.options {
+  background-color: #ffffff;
+  border: 1px #e7e9ed solid;
+  width: 349px;
+  height: 604px;
+  border-radius: 7px;
+}
+.features {
+  width: 1114px;
+  height: 565px;
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 73px;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+.check h1 {
+  color: #161c2d;
+  font-size: 48px;
+  line-height: 58px;
+}
+.check p {
+  color: #161c2d;
+  opacity: 70%;
+  font-size: 19px;
+  line-height: 32px;
+}
+.f_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.feature {
+  width: 346px;
+  height: 134px;
+  display: flex;
+  gap: 25px;
+}
+.f_name {
+  font-size: 21ox;
+  color: #161c2d;
+  line-height: 32px;
+  font-weight: 700;
+}
+.f_text {
+  font-size: 17px;
+  color: #161c2d;
+  opacity: 70%;
+  line-height: 29px;
+}
+.f_exp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
